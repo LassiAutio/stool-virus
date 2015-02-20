@@ -1,11 +1,11 @@
-getRowsWhere <- function(matrix, columnName, columnValue) {
+GetRowsWhere <- function(matrix, columnName, columnValue) {
 	return ( matrix[ matrix[, columnName] == columnValue,] )
 }
 
-getRowCount <- function(matrix) {
+GetRowCount <- function(matrix) {
 	return ( nrow(matrix) )
 }
 
-getColumnCount <- function(matrix) {
+GetColumnCount <- function(matrix) {
 	return ( ncol(matrix) )
 }
